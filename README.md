@@ -1,9 +1,15 @@
 # starwars-names
 Get a random Star Wars name
 
+## Install
+
+```
+npm install starwars-names
+```
 
 ## Creation of npm packages
 
+This project is my first attempt at creating a node package.
 
 ### Register your npm account
 
