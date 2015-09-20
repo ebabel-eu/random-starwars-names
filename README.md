@@ -4,7 +4,7 @@ Get a random Star Wars name.
 
 This npm package is made to learn how to [create an npm package](CREATE-NPM-PACKAGE.md).
 
-It's based on the videos and the repository of [Kent C. Dodds](https://github.com/kentcdodds/starwars-names).
+It's based on the video tutorial and the repository of [Kent C. Dodds](https://github.com/kentcdodds/starwars-names).
 
 ## Install
 
