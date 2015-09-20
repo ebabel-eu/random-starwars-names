@@ -1,5 +1,7 @@
 # Random Star Wars names
 
+[![Build Status](https://travis-ci.org/ebabel-eu/random-starwars-names.svg)](https://travis-ci.org/ebabel-eu/random-starwars-names)
+
 Get a random Star Wars name.
 
 This npm package is made to learn how to [create an npm package](CREATE-NPM-PACKAGE.md).

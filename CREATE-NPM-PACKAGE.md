@@ -82,6 +82,16 @@ npm publish
 npm info
 ```
 
+## Manage release versions with semantic-release
+
+If you haven't installed it on your machine yet, install semantic-release-cli
+
+```
+npm install -g semantic-release-cli@1.0.5
+```
+
+Note that I am not installing the latest release 1.1.4 because it's broken at this point in time, so I picked a previous version that does work.
+
 
 
 
