@@ -55,6 +55,14 @@ If you want to be prompted for input, use `npm init` but if you want to use your
 npm init -y
 ```
 
+### Publish your npm package
+
+Note that each npm package name needs to be universally unique, regardless of which user it is published under.
+
+```
+npm publish
+```
+
 
 
 
