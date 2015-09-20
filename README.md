@@ -27,6 +27,12 @@ npm set init-license 'MIT'
 npm set save-exact false
 ```
 
+### Default version of dependencies to tildes
+
+```
+npm config set save-prefix='~'
+```
+
 ### Check the default npm settings
 
 ```
