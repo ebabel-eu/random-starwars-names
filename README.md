@@ -1,7 +1,5 @@
 # Random Star Wars names
 
-[![Build Status](https://travis-ci.org/ebabel-eu/random-starwars-names.svg)](https://travis-ci.org/ebabel-eu/random-starwars-names)
-
 Get a random Star Wars name.
 
 This npm package is made to learn how to [create an npm package](CREATE-NPM-PACKAGE.md).
@@ -17,19 +15,19 @@ npm install random-starwars-names
 ## Setup
 
 ```
-var rswn = require('random-starwars-names')
+var randomStarwarsNames = require('random-starwars-names')
 ```
 
 ## List all Star Wars names
 
 ```
-rswn.all;
+randomStarwarsNames.all;
 ```
 
 ## Get a random Star Wars name
 
 ```
-rswn.random();
+randomStarwarsNames.random();
 ```
 
 ## Run unit tests

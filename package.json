@@ -1,10 +1,10 @@
 {
   "name": "random-starwars-names",
-  "version": "1.0.3",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,6 @@
     "grunt-contrib-jshint": "~0.11.3",
     "grunt-jsdoc": "~0.6.8",
     "mocha": "~2.3.2",
-    "semantic-release": "~4.3.5"
+    "semantic-release": "^6.0.2"
   }
 }
