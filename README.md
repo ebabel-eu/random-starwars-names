@@ -34,6 +34,14 @@ randomStarwarsNames.all;
 randomStarwarsNames.random();
 ```
 
+## Get an array of random Star Wars names
+
+Note: example below would return 5 random Star Wars names.
+
+```
+randomStarwarsNames.random(5);
+```
+
 ## Run unit tests
 
 ```

@@ -28,6 +28,14 @@ describe('random-starwars-names', function() {
             expect(starWars.all).to.include(randomName);
         });
 
+        it('should return an array of random names if passed an integer', function() {
+            var randomNames = starWars.random(3);
+            expect(randomNames).to.have.length(3);
+            randomNames.forEach(function (name) {
+                expect(starWars.all).to.include(name);
+            });
+        });
+
     });
 
 });
