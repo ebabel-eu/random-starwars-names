@@ -1,72 +1,34 @@
-# starwars-names
-Get a random Star Wars name
+# Random Star Wars names
+
+Get a random Star Wars name.
+
+This npm package is made to learn how to [create an npm package](CREATE-NPM-PACKAGE.md).
 
 ## Install
 
 ```
-npm install starwars-names
+npm install random-starwars-names
 ```
 
-## Creation of npm packages
-
-This project is my first attempt at creating a node package.
-
-### Register your npm account
-
-First, signup on https://www.npmjs.com/signup then register your account on your machine:
+## Setup
 
 ```
-npm adduser
+var rswn = require('random-starwars-names')
 ```
 
-### Setup default settings
+## List all Star Wars names
 
 ```
-npm set init-author-name 'Nadjib Amar'
-npm set init-author-email 'hello@ebabel.eu'
-npm set init-license 'MIT'
+rswn.all;
 ```
 
-### Decide if dependency versions are fixed
+## Get a random Star Wars name
 
 ```
-npm set save-exact false
+rswn.random();
 ```
 
-### Default version of dependencies to tildes
+## Create npm package
 
-```
-npm config set save-prefix='~'
-```
-
-### Check the default npm settings
-
-```
-cat ~/.npmrc
-```
-
-For more on npm default configuration, see https://docs.npmjs.com/misc/config
-
-### Create a default package.json
-
-If you want to be prompted for input, use `npm init` but if you want to use your default settings:
-
-```
-npm init -y
-```
-
-### Publish your npm package
-
-Note that each npm package name needs to be universally unique, regardless of which user it is published under.
-
-```
-npm publish
-```
-
-
-
-
-
-
-
+Learn how to [create an npm package](CREATE-NPM-PACKAGE.md).
 
