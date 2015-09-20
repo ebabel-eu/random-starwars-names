@@ -4,7 +4,16 @@ Get a random Star Wars name
 
 ## Creation of npm packages
 
-### Setup default npm 
+
+### Register your npm account
+
+First, signup on https://www.npmjs.com/signup then register your account on your machine:
+
+```
+npm adduser
+```
+
+### Setup default settings
 
 ```
 npm set init-author-name 'Nadjib Amar'
@@ -25,3 +34,19 @@ cat ~/.npmrc
 ```
 
 For more on npm default configuration, see https://docs.npmjs.com/misc/config
+
+### Create a default package.json
+
+If you want to be prompted for input, use `npm init` but if you want to use your default settings:
+
+```
+npm init -y
+```
+
+
+
+
+
+
+
+
