@@ -1,5 +1,7 @@
 module.exports = function(grunt) {
 
+  var config = grunt.file.readJSON('config.json');
+
   grunt.initConfig({
 
     pkg: grunt.file.readJSON('package.json'),
@@ -10,23 +12,7 @@ module.exports = function(grunt) {
       ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
 
     jshint: {
-      options: {
-        curly: true,
-        eqeqeq: true,
-        immed: true,
-        latedef: true,
-        newcap: true,
-        noarg: true,
-        sub: true,
-        undef: true,
-        unused: true,
-        boss: true,
-        eqnull: true,
-        globals: {
-          require: true,
-          module: true
-        }
-      },
+      options: config.jshint.options,
       gruntfile: {
         src: 'Gruntfile.js'
       },

@@ -1,0 +1,23 @@
+{
+    "jshint": {
+        "options": {
+            "curly": true,
+            "eqeqeq": true,
+            "immed": true,
+            "latedef": true,
+            "newcap": true,
+            "noarg": true,
+            "sub": true,
+            "undef": true,
+            "unused": true,
+            "boss": true,
+            "eqnull": true,
+            "globals": {
+                "require": true,
+                "module": true,
+                "describe": true,
+                "it": true
+            }
+        }
+    }
+}

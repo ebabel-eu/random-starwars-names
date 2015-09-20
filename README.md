@@ -30,6 +30,12 @@ rswn.all;
 rswn.random();
 ```
 
+## Run unit tests
+
+```
+npm test
+```
+
 ## Create npm package
 
 Learn how to [create an npm package](CREATE-NPM-PACKAGE.md).
