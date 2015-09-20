@@ -52,6 +52,26 @@ npm init -y
 
 Note that each npm package name needs to be universally unique, regardless of which user it is published under.
 
+Before publishing to npmjs.com, the current version of the code should be pushed to its Github repository and the version should be tagged.
+
+### Push to Github
+
+The code that gets released should come from the stable master branch.
+
+git tag [version number goes here]
+
+Example:
+
+```
+git checkout master
+git merge develop
+git push origin master
+git tag 1.0.0
+git push --tags
+```
+
+### Publish to npmjs.com
+
 ```
 npm publish
 ```
