@@ -1,0 +1,27 @@
+box: node
+build:
+  steps:
+
+    # Install grunt.
+    - script:
+        name: Install grunt
+        code: sudo npm install -g grunt-cli --allow-root
+
+    # Execute `npm install` command.
+    - npm-install
+
+    # Run unit tests.
+    - npm-test
+
+    # Run grunt to build the website.
+    - script:
+        name: Build the website
+        code: grunt
+
+# Deploy to production
+deploy:
+  steps:
+    - heroku-deploy:
+        key: $HEROKU_KEY
+        user: $HEROKU_USER
+        app-name: $HEROKU_APP_NAME
