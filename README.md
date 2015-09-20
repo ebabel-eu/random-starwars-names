@@ -2,7 +2,7 @@
 
 [![wercker status](https://app.wercker.com/status/ea7283b8241c7f990c6116c7f2d89402/s/master "wercker status")](https://app.wercker.com/project/bykey/ea7283b8241c7f990c6116c7f2d89402)
 
-[![NPM](https://nodei.co/npm/<package>.png)](https://npmjs.org/package/<package>)
+[![NPM](https://nodei.co/npm/random-starwars-names.png)](https://npmjs.org/package/random-starwars-names)
 
 Get a random Star Wars name.
 
