@@ -27,15 +27,6 @@ module.exports = function(grunt) {
           destination: 'doc'
         }
       }
-    },
-    coveralls: {
-        options: {
-            debug: true,
-            coverageDir: 'coverage',
-            dryRun: true,
-            force: true,
-            recursive: true
-        }
     }
 
   });
@@ -43,13 +34,11 @@ module.exports = function(grunt) {
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-jsdoc');
-  grunt.loadNpmTasks('grunt-karma-coveralls');
 
   // Default task.
   grunt.registerTask('default', [
     'jshint',
-    'jsdoc',
-    'coveralls'
+    'jsdoc'
   ]);
 
 };
