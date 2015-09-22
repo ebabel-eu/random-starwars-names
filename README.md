@@ -42,10 +42,16 @@ Note: example below would return 5 random Star Wars names.
 randomStarwarsNames.random(5);
 ```
 
-## Run unit tests
+## Run unit tests (one off)
 
 ```
 npm test
+```
+
+## Continuously run unit tests while developing
+
+```
+npm run test-watch
 ```
 
 ## Create npm package
