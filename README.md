@@ -10,8 +10,6 @@ This npm package is made to learn how to [create an npm package](CREATE-NPM-PACK
 
 It's based on the video tutorial and the repository of [Kent C. Dodds](https://github.com/kentcdodds/starwars-names).
 
-## todo
-
 ## Install
 
 ```
@@ -55,6 +53,8 @@ npm test
 ```
 npm run test-watch
 ```
+
+Note: to break from watch on Mac OS, use CTRL C twice.
 
 ## Create npm package
 
