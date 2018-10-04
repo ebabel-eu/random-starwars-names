@@ -4,8 +4,7 @@
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "istanbul cover -x *.test.js _mocha --report text --report html --report lcov -- -R spec src/index.test.js",
-    "test-watch": "istanbul cover -x *.test.js _mocha --report lcov -- -R spec src/index.test.js -w"
+    "test": "jest --coverage ./src/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -28,12 +27,6 @@
     "node": ">= 10"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "grunt": "^1.0.3",
-    "grunt-contrib-jshint": "^2.0.0",
-    "grunt-jsdoc": "^2.3.0",
-    "istanbul": "^0.4.5",
-    "karma": "^3.0.0",
-    "mocha": "^5.2.0"
+    "jest": "^23.6.0"
   }
 }

@@ -1,41 +1,28 @@
-var expect = require('chai').expect;
-var starWars = require('./index');
+const starWars = require('./index');
 
-describe('random-starwars-names', function() {
-
-    describe('all', function() {
-
-        it('should return an array of strings', function() {
-            function isArrayOfStrings (array) {
-                return array.every(function (item) {
-                    return typeof item === 'string';
-                });
-            }
-
-            expect(starWars.all).to.satisfy(isArrayOfStrings);
-        });
-
-        it('should contain \'Luke Skywalker\'', function() {
-            expect(starWars.all).to.include('Luke Skywalker');
-        });
-
+test('all() should return an array of strings', () => {
+  const isArrayOfStrings = (array) => {
+    return array.every((item) => {
+      return typeof item === 'string';
     });
+  }
 
-    describe('random', function() {
+  expect(isArrayOfStrings(starWars.all)).toBe(true);
+});
 
-        it('should return a random item from starWars.all', function() {
-            var randomName = starWars.random();
-            expect(starWars.all).to.include(randomName);
-        });
+test('should contain \'Luke Skywalker\'', () => {
+  expect(starWars.all.find(name => name === 'Luke Skywalker')).toBe('Luke Skywalker');
+});
 
-        it('should return an array of random names if passed an integer', function() {
-            var randomNames = starWars.random(3);
-            expect(randomNames).to.have.length(3);
-            randomNames.forEach(function (name) {
-                expect(starWars.all).to.include(name);
-            });
-        });
+test('random() should return a random item from starWars.all', () => {
+  const randomName = starWars.random();
+  expect(starWars.all.find(name => name === randomName)).toBe(randomName);
+});
 
-    });
-
+test('random() should return an array of random names if passed an integer', () => {
+  const randomNames = starWars.random(3);
+  expect(randomNames.length).toBe(3);
+  randomNames.forEach((randomName) => {
+    expect(starWars.all.find(name => name === randomName)).toBe(randomName);
+  });
 });
