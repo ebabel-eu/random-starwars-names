@@ -44,14 +44,6 @@ randomStarwarsNames.random(5);
 npm test
 ```
 
-## Continuously run unit tests while developing
-
-```
-npm run test-watch
-```
-
-Note: to break from watch on Mac OS, use CTRL C twice.
-
 ## Create npm package
 
 Learn how to [create an npm package](CREATE-NPM-PACKAGE.md).
