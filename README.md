@@ -1,7 +1,4 @@
 # Random Star Wars names
-
-[![wercker status](https://app.wercker.com/status/ea7283b8241c7f990c6116c7f2d89402/s/master "wercker status")](https://app.wercker.com/project/bykey/ea7283b8241c7f990c6116c7f2d89402) [![Coverage Status](https://coveralls.io/repos/ebabel-eu/random-starwars-names/badge.svg?branch=master&service=github)](https://coveralls.io/github/ebabel-eu/random-starwars-names?branch=master) [![Dependency Status](https://gemnasium.com/ebabel-eu/random-starwars-names.svg)](https://gemnasium.com/ebabel-eu/random-starwars-names)
-
 [![NPM](https://nodei.co/npm/random-starwars-names.png)](https://npmjs.org/package/random-starwars-names)
 
 Get a random Star Wars name.
