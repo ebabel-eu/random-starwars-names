@@ -1,30 +1,30 @@
 {
   "name": "random-starwars-names",
-  "version": "1.1.1",
-  "description": "Get random Star Wars names",
+  "version": "1.2.0",
+  "description": "Get random Star Wars names.",
   "main": "src/index.js",
+  "engines": {
+    "node": ">= 10"
+  },
   "scripts": {
     "test": "jest --coverage ./src/*.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ebabel-eu/starwars-names.git"
+    "url": "https://github.com/ebabel-games/random-starwars-names.git"
   },
   "keywords": [
     "random",
     "star wars"
   ],
-  "author": "Nadjib Amar <hello@ebabel.eu> (http://ebabel.eu/)",
-  "license": "MIT",
+  "author": "Thomas Amar <hello@ebabel.eu> (https://ebabel.eu/)",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ebabel-eu/starwars-names/issues"
+    "url": "https://github.com/ebabel-games/random-starwars-names/issues"
   },
-  "homepage": "https://github.com/ebabel-eu/starwars-names#readme",
+  "homepage": "https://github.com/ebabel-games/random-starwars-names#readme",
   "dependencies": {
     "unique-random-array": "^1.0.1"
-  },
-  "engines": {
-    "node": ">= 10"
   },
   "devDependencies": {
     "jest": "^23.6.0"

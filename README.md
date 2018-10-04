@@ -1,5 +1,6 @@
 # Random Star Wars names
 [![NPM](https://nodei.co/npm/random-starwars-names.png)](https://npmjs.org/package/random-starwars-names)
+[![Build Status](https://travis-ci.org/ebabel-games/random-starwars-names.svg?branch=master)](https://travis-ci.org/ebabel-games/random-starwars-names)
 
 Get a random Star Wars name.
 
@@ -8,13 +9,11 @@ This npm package is made to learn how to [create an npm package](CREATE-NPM-PACK
 It's based on the video tutorial and the repository of [Kent C. Dodds](https://github.com/kentcdodds/starwars-names).
 
 ## Install
-
 ```
 npm install random-starwars-names
 ```
 
 ## Setup
-
 ```
 var randomStarwarsNames = require('random-starwars-names')
 ```
