@@ -1,13 +1,13 @@
-var starWarsNames = require('./starwars-names.json');
-var uniqueRandomArray = require('unique-random-array');
-var getRandomName = uniqueRandomArray(starWarsNames);
+const starWarsNames = require('./starwars-names.json');
+const uniqueRandomArray = require('unique-random-array');
+const getRandomName = uniqueRandomArray(starWarsNames);
 
-function random (number) {
+const random = (number) => {
     if (number === undefined) {
         return getRandomName();
     } else {
-        var randomNames = [];
-        for (var i = 0; i < number; i++) {
+        const randomNames = [];
+        for (let i = 0; i < number; i++) {
             randomNames.push(getRandomName());
         }
         return randomNames;
@@ -30,5 +30,5 @@ module.exports = {
      * or an array of names when passed an integer as parameter.
      * @type {function}
      */
-    random: random
+    random,
 };
